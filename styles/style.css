@@ -1,13 +1,10 @@
 .content-section {
-    /* max-width: 1052px; */
     max-width: 100%;
-    /* или max-width: 100%;*/
     margin: 0 24px;
 }
 
 header {
     padding: 88px 24px 87px 24px;
-    /* display: inline-grid; */
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr;
@@ -21,9 +18,7 @@ header {
 }
 
 .header__links-list {
-    
     align-self: center;
-
     list-style:circle;
     display: flex;
     font-weight: 400;
@@ -92,17 +87,12 @@ address {
     flex-direction: column;
     align-self: center;
     justify-self: end;
-    /* font-weight: 400;
-    font-size: 18px;
-    color: #000000; */
     padding-right: 39px;
-    /* line-height: 24px; */
 }
 
 .cover {
     width: 100%;
     min-height: 757px;
-    /* height: fit-content; */
     background-image: url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
@@ -128,10 +118,6 @@ address {
     text-transform: uppercase;
 
     color: #FFFFFF;
-    /* можно попробовать сделать через относительное позиционирование */
-    /* position: relative;
-    top: 165px;
-    left: 50px; */
 
     padding-top: 165px;
     padding-left: 50px;
@@ -150,18 +136,12 @@ address {
     position: relative;
     top: 13px;
     right: 15px;
-
-    /* padding-top: 12px;
-    padding-right: 29px; */
     text-align: center;
 }
 
 .aligned-text_right {
     padding-top: 18px;
     margin-bottom: 20px;
-
-    /* position: relative;
-    top: 19px; */
     text-align: end;
 }
 
@@ -352,7 +332,6 @@ address {
 
     font-size: 20px;
     line-height: 24px;
-    /* or 120% */
     letter-spacing: 0.007em;
     padding-top: 8px;
     display: flex;
