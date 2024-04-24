@@ -38,7 +38,6 @@ header {
 
 .header__links-list-item_no-bullit {
     list-style: none;
-    text-decoration: none;
 }
 
 .header__logo {
@@ -326,7 +325,7 @@ address {
     line-height: 47px;
 }
 
-.about__text{
+.about__text {
     grid-column: 2 / -1;
     grid-row: 2 / 3;
 
