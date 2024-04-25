@@ -27,6 +27,12 @@ blockquote {
 
 a {
   color: inherit;
+  text-underline-position: under;
+}
+
+ul{
+  list-style: none;
+  text-decoration: none;
 }
 
 img {
