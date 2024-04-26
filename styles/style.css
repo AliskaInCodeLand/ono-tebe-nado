@@ -87,7 +87,7 @@
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
     position: absolute;
     top: 0;
@@ -166,7 +166,7 @@
     font-size: 22px;
     text-transform: uppercase;
     color: #fff;
-    font-family: 'Raleway';
+    font-family: 'Raleway', 'Arial','Helvetica', sans-serif;
     line-height: 26px;
 }
 
